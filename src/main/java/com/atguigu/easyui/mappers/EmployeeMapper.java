@@ -13,4 +13,7 @@ public interface EmployeeMapper {
     List<Employee> selectAll();
 
     int updateByPrimaryKey(Employee record);
+    public static void main(String[] args) {
+		System.out.println("11111111111111111");
+	}
 }
